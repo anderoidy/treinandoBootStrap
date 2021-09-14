@@ -1,0 +1,960 @@
+<!DOCTYPE html>
+<!-- saved from url=(0081)https://turbologo.com/pt/app/generate?company_name=pradoar&slogan=&industry_id=60 -->
+<html xml:lang="pt" lang="pt"><link type="text/css" rel="stylesheet" id="dark-mode-custom-link"><link type="text/css" rel="stylesheet" id="dark-mode-general-link"><style lang="en" type="text/css" id="dark-mode-custom-style"></style><style lang="en" type="text/css" id="dark-mode-native-style"></style><link type="text/css" id="dark-mode" rel="stylesheet" href="https://turbologo.com/pt/app/generate?company_name=pradoar&amp;slogan=&amp;industry_id=60"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="csrf-param" content="authenticity_token">
+<meta name="csrf-token" content="fVpfZ1nleStudetUXX62h1mqKXZrJ3aPrfxOR9DxQ4cquUfBR5AB9TLV0mK1c3juEbAI2vTKhKdS59EVCGwEog==">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<script type="text/javascript" async="" src="./modelo1_files/analytics.js"></script><script src="./modelo1_files/sdk.js" async="" crossorigin="anonymous"></script><script src="./modelo1_files/cb=gapi.loaded_0" async=""></script><script id="facebook-jssdk" src="./modelo1_files/sdk(1).js"></script><script type="text/javascript" src="./modelo1_files/NRJS-52f0838caf72ff5fb85"></script><script src="./modelo1_files/nr-1210.min.js"></script><script async="" src="./modelo1_files/main.e7fd5392.js"></script><script type="text/javascript" async="" src="./modelo1_files/f.txt"></script><script async="" src="./modelo1_files/tag.js"></script><script type="text/javascript" async="" src="./modelo1_files/core.js"></script><script type="text/javascript" async="" src="./modelo1_files/bat.js"></script><script src="./modelo1_files/139894600014328" async=""></script><script async="" src="./modelo1_files/fbevents.js"></script><script async="" src="./modelo1_files/gtm.js"></script><script>window.NREUM||(NREUM={});NREUM.info={"beacon":"bam-cell.nr-data.net","errorBeacon":"bam-cell.nr-data.net","licenseKey":"NRJS-52f0838caf72ff5fb85","applicationID":"549684288","transactionName":"d19fEBAMXQ8GQhlXVEdZVgoRTF8GFA==","queueTime":0,"applicationTime":59,"agent":""}</script>
+<script>(window.NREUM||(NREUM={})).loader_config={licenseKey:"NRJS-52f0838caf72ff5fb85",applicationID:"549684288"};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var i=e[n]={exports:{}};t[n][0].call(i.exports,function(e){var i=t[n][1][e];return r(i||e)},i,i.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(t,e,n){function r(){}function i(t,e,n){return function(){return o(t,[u.now()].concat(f(arguments)),e?null:this,n),e?void 0:this}}var o=t("handle"),a=t(8),f=t(9),c=t("ee").get("tracer"),u=t("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],p="api-",l=p+"ixn-";a(d,function(t,e){s[e]=i(p+e,!0,"api")}),s.addPageAction=i(p+"addPageAction",!0),s.setCurrentRouteName=i(p+"routeName",!0),e.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(t,e){var n={},r=this,i="function"==typeof e;return o(l+"tracer",[u.now(),t,n],r),function(){if(c.emit((i?"":"no-")+"fn-start",[u.now(),r,i],n),i)try{return e.apply(this,arguments)}catch(t){throw c.emit("fn-err",[arguments,this,t],n),t}finally{c.emit("fn-end",[u.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){m[e]=i(l+e)}),newrelic.noticeError=function(t,e){"string"==typeof t&&(t=new Error(t)),o("err",[t,u.now(),!1,e])}},{}],2:[function(t,e,n){function r(t){if(NREUM.init){for(var e=NREUM.init,n=t.split("."),r=0;r<n.length-1;r++)if(e=e[n[r]],"object"!=typeof e)return;return e=e[n[n.length-1]]}}e.exports={getConfiguration:r}},{}],3:[function(t,e,n){function r(){return f.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,f=t(10);e.exports=r,e.exports.offset=a,e.exports.getLastTimestamp=i},{}],4:[function(t,e,n){function r(t){return!(!t||!t.protocol||"file:"===t.protocol)}e.exports=r},{}],5:[function(t,e,n){function r(t,e){var n=t.getEntries();n.forEach(function(t){"first-paint"===t.name?d("timing",["fp",Math.floor(t.startTime)]):"first-contentful-paint"===t.name&&d("timing",["fcp",Math.floor(t.startTime)])})}function i(t,e){var n=t.getEntries();n.length>0&&d("lcp",[n[n.length-1]])}function o(t){t.getEntries().forEach(function(t){t.hadRecentInput||d("cls",[t])})}function a(t){if(t instanceof m&&!g){var e=Math.round(t.timeStamp),n={type:t.type};e<=p.now()?n.fid=p.now()-e:e>p.offset&&e<=Date.now()?(e-=p.offset,n.fid=p.now()-e):e=p.now(),g=!0,d("timing",["fi",e,n])}}function f(t){"hidden"===t&&d("pageHide",[p.now()])}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var c,u,s,d=t("handle"),p=t("loader"),l=t(7),m=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){c=new PerformanceObserver(r);try{c.observe({entryTypes:["paint"]})}catch(v){}u=new PerformanceObserver(i);try{u.observe({entryTypes:["largest-contentful-paint"]})}catch(v){}s=new PerformanceObserver(o);try{s.observe({type:"layout-shift",buffered:!0})}catch(v){}}if("addEventListener"in document){var g=!1,h=["click","keydown","mousedown","pointerdown","touchstart"];h.forEach(function(t){document.addEventListener(t,a,!1)})}l(f)}},{}],6:[function(t,e,n){function r(t,e){if(!i)return!1;if(t!==i)return!1;if(!e)return!0;if(!o)return!1;for(var n=o.split("."),r=e.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var f=navigator.userAgent,c=f.match(a);c&&f.indexOf("Chrome")===-1&&f.indexOf("Chromium")===-1&&(i="Safari",o=c[1])}e.exports={agent:i,version:o,match:r}},{}],7:[function(t,e,n){function r(t){function e(){t(a&&document[a]?document[a]:document[i]?"hidden":"visible")}"addEventListener"in document&&o&&document.addEventListener(o,e,!1)}e.exports=r;var i,o,a;"undefined"!=typeof document.hidden?(i="hidden",o="visibilitychange",a="visibilityState"):"undefined"!=typeof document.msHidden?(i="msHidden",o="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(i="webkitHidden",o="webkitvisibilitychange",a="webkitVisibilityState")},{}],8:[function(t,e,n){function r(t,e){var n=[],r="",o=0;for(r in t)i.call(t,r)&&(n[o]=e(r,t[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],9:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,i=n-e||0,o=Array(i<0?0:i);++r<i;)o[r]=t[e+r];return o}e.exports=r},{}],10:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(t,e,n){function r(){}function i(t){function e(t){return t&&t instanceof r?t:t?u(t,c,a):a()}function n(n,r,i,o,a){if(a!==!1&&(a=!0),!l.aborted||o){t&&a&&t(n,r,i);for(var f=e(i),c=v(n),u=c.length,s=0;s<u;s++)c[s].apply(f,r);var p=d[w[n]];return p&&p.push([b,n,r,f]),f}}function o(t,e){y[t]=v(t).concat(e)}function m(t,e){var n=y[t];if(n)for(var r=0;r<n.length;r++)n[r]===e&&n.splice(r,1)}function v(t){return y[t]||[]}function g(t){return p[t]=p[t]||i(n)}function h(t,e){l.aborted||s(t,function(t,n){e=e||"feature",w[n]=e,e in d||(d[e]=[])})}var y={},w={},b={on:o,addEventListener:o,removeEventListener:m,emit:n,get:g,listeners:v,context:e,buffer:h,abort:f,aborted:!1};return b}function o(t){return u(t,c,a)}function a(){return new r}function f(){(d.api||d.feature)&&(l.aborted=!0,d=l.backlog={})}var c="nr@context",u=t("gos"),s=t(8),d={},p={},l=e.exports=i();e.exports.getOrSetContext=o,l.backlog=d},{}],gos:[function(t,e,n){function r(t,e,n){if(i.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return t[e]=r,r}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){i.buffer([t],r),i.emit(t,e,n)}var i=t("ee").get("handle");e.exports=r,r.ee=i},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,o,function(){return i++})}var i=1,o="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!R++){var t=M.info=NREUM.info,e=v.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return u.abort();c(E,function(e,n){t[e]||(t[e]=n)});var n=a();f("mark",["onload",n+M.offset],null,"api"),f("timing",["load",n]);var r=v.createElement("script");0===t.agent.indexOf("http://")||0===t.agent.indexOf("https://")?r.src=t.agent:r.src=l+"://"+t.agent,e.parentNode.insertBefore(r,e)}}function i(){"complete"===v.readyState&&o()}function o(){f("mark",["domContent",a()+M.offset],null,"api")}var a=t(3),f=t("handle"),c=t(8),u=t("ee"),s=t(6),d=t(4),p=t(2),l=p.getConfiguration("ssl")===!1?"http":"https",m=window,v=m.document,g="addEventListener",h="attachEvent",y=m.XMLHttpRequest,w=y&&y.prototype,b=!d(m.location);NREUM.o={ST:setTimeout,SI:m.setImmediate,CT:clearTimeout,XHR:y,REQ:m.Request,EV:m.Event,PR:m.Promise,MO:m.MutationObserver};var x=""+location,E={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1210.min.js"},O=y&&w&&w[g]&&!/CriOS/.test(navigator.userAgent),M=e.exports={offset:a.getLastTimestamp(),now:a,origin:x,features:{},xhrWrappable:O,userAgent:s,disabled:b};if(!b){t(1),t(5),v[g]?(v[g]("DOMContentLoaded",o,!1),m[g]("load",r,!1)):(v[h]("onreadystatechange",i),m[h]("onload",r)),f("mark",["firstbyte",a.getLastTimestamp()],null,"api");var R=0}},{}],"wrap-function":[function(t,e,n){function r(t,e){function n(e,n,r,c,u){function nrWrapper(){var o,a,s,p;try{a=this,o=d(arguments),s="function"==typeof r?r(o,a):r||{}}catch(l){i([l,"",[o,a,c],s],t)}f(n+"start",[o,a,c],s,u);try{return p=e.apply(a,o)}catch(m){throw f(n+"err",[o,a,m],s,u),m}finally{f(n+"end",[o,a,p],s,u)}}return a(e)?e:(n||(n=""),nrWrapper[p]=e,o(e,nrWrapper,t),nrWrapper)}function r(t,e,r,i,o){r||(r="");var f,c,u,s="-"===r.charAt(0);for(u=0;u<e.length;u++)c=e[u],f=t[c],a(f)||(t[c]=n(f,s?c+r:r,i,c,o))}function f(n,r,o,a){if(!m||e){var f=m;m=!0;try{t.emit(n,r,o,e,a)}catch(c){i([c,n,r,o],t)}m=f}}return t||(t=s),n.inPlace=r,n.flag=p,n}function i(t,e){e||(e=s);try{e.emit("internal-error",t)}catch(n){}}function o(t,e,n){if(Object.defineProperty&&Object.keys)try{var r=Object.keys(t);return r.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(o){i([o],n)}for(var a in t)l.call(t,a)&&(e[a]=t[a]);return e}function a(t){return!(t&&t instanceof Function&&t.apply&&!t[p])}function f(t,e){var n=e(t);return n[p]=t,o(t,n,s),n}function c(t,e,n){var r=t[e];t[e]=f(r,n)}function u(){for(var t=arguments.length,e=new Array(t),n=0;n<t;++n)e[n]=arguments[n];return e}var s=t("ee"),d=t(9),p="nr@original",l=Object.prototype.hasOwnProperty,m=!1;e.exports=r,e.exports.wrapFunction=f,e.exports.wrapInPlace=c,e.exports.argsToArray=u},{}]},{},["loader"]);</script>
+    <title>Aplicação Logo Maker: Obtenha o seu próprio desenho de logotipo gratuitamente</title>
+    <meta property="og:title" content="Aplicação Logo Maker: Obtenha o seu próprio desenho de logotipo gratuitamente">
+    <meta property="og:description" content="Turbologo é um aplicativo de design de logotipo online que faz uso da inteligência artificial.
+É como trabalhar com um designer gráfico profissional. Não é necessário ter conhecimentos de design!
+Você pode criar instantaneamente centenas de logotipos usando o nosso logo maker gratuito.
+">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://turbologo.com/pt/app">
+    <meta property="og:image" content="https://assets.turbologo.com/assets/og-image-eng-0d38229c56755eee62038304a6d62e44d8d207a9e59e9f8a491d248fa165ad06.png">
+
+
+
+    <meta name="description" content="Turbologo é um aplicativo de design de logotipo online que faz uso da inteligência artificial.
+É como trabalhar com um designer gráfico profissional. Não é necessário ter conhecimentos de design!
+Você pode criar instantaneamente centenas de logotipos usando o nosso logo maker gratuito.
+">
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "url": "https://turbologo.com",
+        "logo": "https://turbologo.com/turbologo-logo.png"
+      }
+    </script>
+    
+
+    <link rel="canonical" href="https://turbologo.com/pt/app">
+    <link rel="stylesheet" href="./modelo1_files/bundle.ad8a7eb16445c6137be3.css.gz">
+
+    <link rel="shortcut icon" type="image/png" href="https://assets.turbologo.com/assets/favicon-3a4b4a01c2c76d5c6589f3e67ce6b9ecb8959e1fbeefa46ac9336446d81bd77c.png" sizes="32x32">
+    <link rel="alternate" hreflang="en" href="https://turbologo.com/logo-maker">
+<link rel="alternate" hreflang="ru" href="https://turbologo.ru/create-logo">
+<link rel="alternate" hreflang="es" href="https://turbologo.com/es/crear-logo">
+<link rel="alternate" hreflang="it" href="https://turbologo.com/it/crea-logo">
+<link rel="alternate" hreflang="fr" href="https://turbologo.com/fr/creer-un-logo">
+<link rel="alternate" hreflang="pt" href="https://turbologo.com/pt/criar-logo">
+<link rel="alternate" hreflang="tr" href="https://turbologo.com/tr/logo-tasarim">
+<link rel="alternate" hreflang="de" href="https://turbologo.com/de/logo-erstellen">
+
+    <script>
+    window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+    ga('create', 'UA-10947163-13', 'auto', {'allowLinker': true});
+    ga('require', 'linker');
+    ga('linker:autoLink', ["turbologo.ru"]);
+
+    ga('send', 'pageview');
+  </script>
+  <script async="" src="./modelo1_files/analytics.js"></script>
+
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-KKNJSZH');</script>
+  <!-- End Google Tag Manager -->
+
+  <script async="" src="./modelo1_files/js"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+      gtag('config', 'AW-792427572');
+  </script>
+    
+    
+    <!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window,document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+ fbq('init', '139894600014328');
+fbq('track', 'PageView');
+</script>
+<!-- End Facebook Pixel Code -->
+    <script src="./modelo1_files/tapfiliate.js" type="text/javascript" async=""></script>
+<script type="text/javascript">
+  (function(t,a,p){t.TapfiliateObject=a;t[a]=t[a]||function(){ (t[a].q=t[a].q||[]).push(arguments)}})(window,'tap');
+
+  tap('create', '24668-7b6426', { integration: "javascript" });
+  tap('detect');
+</script>
+  <style data-emotion=""></style><style class="fslightbox-styles">.fslightbox-absoluted{position:absolute;top:0;left:0}.fslightbox-fade-in{animation:fslightbox-fade-in .25s cubic-bezier(0,0,.7,1)}.fslightbox-fade-out{animation:fslightbox-fade-out .25s ease}.fslightbox-fade-in-strong{animation:fslightbox-fade-in-strong .25s cubic-bezier(0,0,.7,1)}.fslightbox-fade-out-strong{animation:fslightbox-fade-out-strong .25s ease}@keyframes fslightbox-fade-in{from{opacity:.65}to{opacity:1}}@keyframes fslightbox-fade-out{from{opacity:.35}to{opacity:0}}@keyframes fslightbox-fade-in-strong{from{opacity:.3}to{opacity:1}}@keyframes fslightbox-fade-out-strong{from{opacity:1}to{opacity:0}}.fslightbox-cursor-grabbing{cursor:grabbing}.fslightbox-full-dimension{width:100%;height:100%}.fslightbox-open{overflow:hidden;height:100%}.fslightbox-flex-centered{display:flex;justify-content:center;align-items:center}.fslightbox-opacity-0{opacity:0!important}.fslightbox-opacity-1{opacity:1!important}.fslightbox-scrollbarfix{padding-right:17px}.fslightbox-transform-transition{transition:transform .3s}.fslightbox-container{font-family:Arial,sans-serif;position:fixed;top:0;left:0;background:linear-gradient(rgba(30,30,30,.9),#000 1810%);z-index:1000000000;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-webkit-tap-highlight-color:transparent}.fslightbox-container *{box-sizing:border-box}.fslightbox-svg-path{transition:fill .15s ease;fill:#ddd}.fslightbox-nav{height:45px;width:100%;position:absolute;top:0;left:0}.fslightbox-slide-number-container{display:flex;justify-content:center;align-items:center;position:relative;height:100%;font-size:15px;color:#d7d7d7;z-index:0;max-width:55px;text-align:left}.fslightbox-slash{display:block;margin:0 5px;width:1px;height:12px!important;transform:rotate(15deg);background:#fff}.fslightbox-toolbar{position:absolute;z-index:3;right:0;top:0;height:100%;display:flex;background:rgba(35,35,35,.65)}.fslightbox-toolbar-button{height:100%;width:45px;cursor:pointer}.fslightbox-toolbar-button:hover .fslightbox-svg-path{fill:#fff}.fslightbox-slide-btn-container{display:flex;align-items:center;padding:12px 12px 12px 6px;position:absolute;top:50%;cursor:pointer;z-index:3;transform:translateY(-50%)}@media (min-width:476px){.fslightbox-slide-btn-container{padding:22px 22px 22px 6px}}@media (min-width:768px){.fslightbox-slide-btn-container{padding:30px 30px 30px 6px}}.fslightbox-slide-btn-container:hover .fslightbox-svg-path{fill:#f1f1f1}.fslightbox-slide-btn{padding:9px;font-size:26px;background:rgba(35,35,35,.65)}@media (min-width:768px){.fslightbox-slide-btn{padding:10px}}@media (min-width:1600px){.fslightbox-slide-btn{padding:11px}}.fslightbox-slide-btn-previous-container{left:0}@media (max-width:475.99px){.fslightbox-slide-btn-previous-container{padding-left:3px}}.fslightbox-slide-btn-next-container{right:0;padding-left:12px;padding-right:3px}@media (min-width:476px){.fslightbox-slide-btn-next-container{padding-left:22px}}@media (min-width:768px){.fslightbox-slide-btn-next-container{padding-left:30px}}@media (min-width:476px){.fslightbox-slide-btn-next-container{padding-right:6px}}.fslightbox-down-event-detector{position:absolute;z-index:1}.fslightbox-slide-swiping-hoverer{z-index:4}.fslightbox-invalid-file-wrapper{font-size:22px;color:#eaebeb;margin:auto}.fslightbox-video{object-fit:cover}.fslightbox-loader{display:block;margin:auto;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:67px;height:67px}.fslightbox-loader div{box-sizing:border-box;display:block;position:absolute;width:54px;height:54px;margin:6px;border:5px solid;border-color:#999 transparent transparent transparent;border-radius:50%;animation:fslightbox-loader 1.2s cubic-bezier(.5,0,.5,1) infinite}.fslightbox-loader .fslightbox-loader-child-1{animation-delay:-.45s}.fslightbox-loader .fslightbox-loader-child-2{animation-delay:-.3s}.fslightbox-loader .fslightbox-loader-child-3{animation-delay:-.15s}@keyframes fslightbox-loader{0%{transform:rotate(0)}100%{transform:rotate(360deg)}}.fslightbox-source{position:relative;z-index:2;opacity:0;transform:translateZ(0);margin:auto;backface-visibility:hidden}</style><script src="./modelo1_files/f(1).txt"></script><script src="./modelo1_files/56291364.js" type="text/javascript" async=""></script><meta http-equiv="origin-trial" content="A7jJ/K14TswrMYv7k08eMRw2LMhCoHtdZIlR4bsG9p1tHmBXAgq7ZMLdccBMn+RzwQkrXZM0RPFAPiVZJKofAQsAAACHeyJvcmlnaW4iOiJodHRwczovL3d3dy5waW50ZXJlc3QuY29tOjQ0MyIsImZlYXR1cmUiOiJDb252ZXJzaW9uTWVhc3VyZW1lbnQiLCJleHBpcnkiOjE2MzE2NjM5OTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><style type="text/css" data-fbcssmodules="css:fb.css.base css:fb.css.dialog css:fb.css.iframewidget css:fb.css.customer_chat_plugin_iframe">.fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_reposition{overflow:hidden;position:relative}.fb_invisible{display:none}.fb_reset{background:none;border:0;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset>div{overflow:hidden}@keyframes fb_transform{from{opacity:0;transform:scale(.95)}to{opacity:1;transform:scale(1)}}.fb_animate{animation:fb_transform .3s forwards}
+.fb_dialog{background:rgba(82, 82, 82, .7);position:absolute;top:-10000px;z-index:10001}.fb_dialog_advanced{border-radius:8px;padding:10px}.fb_dialog_content{background:#fff;color:#373737}.fb_dialog_close_icon{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;cursor:pointer;display:block;height:15px;position:absolute;right:18px;top:17px;width:15px}.fb_dialog_mobile .fb_dialog_close_icon{left:5px;right:auto;top:5px}.fb_dialog_padding{background-color:transparent;position:absolute;width:1px;z-index:-1}.fb_dialog_close_icon:hover{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent}.fb_dialog_close_icon:active{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent}.fb_dialog_iframe{line-height:0}.fb_dialog_content .dialog_title{background:#6d84b4;border:1px solid #365899;color:#fff;font-size:14px;font-weight:bold;margin:0}.fb_dialog_content .dialog_title>span{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yd/r/Cou7n-nqK52.gif) no-repeat 5px 50%;float:left;padding:5px 0 7px 26px}body.fb_hidden{height:100%;left:0;margin:0;overflow:visible;position:absolute;top:-10000px;transform:none;width:100%}.fb_dialog.fb_dialog_mobile.loading{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ya/r/3rhSv5V8j3o.gif) white no-repeat 50% 50%;min-height:100%;min-width:100%;overflow:hidden;position:absolute;top:0;z-index:10001}.fb_dialog.fb_dialog_mobile.loading.centered{background:none;height:auto;min-height:initial;min-width:initial;width:auto}.fb_dialog.fb_dialog_mobile.loading.centered #fb_dialog_loader_spinner{width:100%}.fb_dialog.fb_dialog_mobile.loading.centered .fb_dialog_content{background:none}.loading.centered #fb_dialog_loader_close{clear:both;color:#fff;display:block;font-size:18px;padding-top:20px}#fb-root #fb_dialog_ipad_overlay{background:rgba(0, 0, 0, .4);bottom:0;left:0;min-height:100%;position:absolute;right:0;top:0;width:100%;z-index:10000}#fb-root #fb_dialog_ipad_overlay.hidden{display:none}.fb_dialog.fb_dialog_mobile.loading iframe{visibility:hidden}.fb_dialog_mobile .fb_dialog_iframe{position:sticky;top:0}.fb_dialog_content .dialog_header{background:linear-gradient(from(#738aba), to(#2c4987));border-bottom:1px solid;border-color:#043b87;box-shadow:white 0 1px 1px -1px inset;color:#fff;font:bold 14px Helvetica, sans-serif;text-overflow:ellipsis;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0;vertical-align:middle;white-space:nowrap}.fb_dialog_content .dialog_header table{height:43px;width:100%}.fb_dialog_content .dialog_header td.header_left{font-size:12px;padding-left:5px;vertical-align:middle;width:60px}.fb_dialog_content .dialog_header td.header_right{font-size:12px;padding-right:5px;vertical-align:middle;width:60px}.fb_dialog_content .touchable_button{background:linear-gradient(from(#4267B2), to(#2a4887));background-clip:padding-box;border:1px solid #29487d;border-radius:3px;display:inline-block;line-height:18px;margin-top:3px;max-width:85px;padding:4px 12px;position:relative}.fb_dialog_content .dialog_header .touchable_button input{background:none;border:none;color:#fff;font:bold 12px Helvetica, sans-serif;margin:2px -12px;padding:2px 6px 3px 6px;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog_content .dialog_header .header_center{color:#fff;font-size:16px;font-weight:bold;line-height:18px;text-align:center;vertical-align:middle}.fb_dialog_content .dialog_content{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;border:1px solid #4a4a4a;border-bottom:0;border-top:0;height:150px}.fb_dialog_content .dialog_footer{background:#f5f6f7;border:1px solid #4a4a4a;border-top-color:#ccc;height:40px}#fb_dialog_loader_close{float:left}.fb_dialog.fb_dialog_mobile .fb_dialog_close_icon{visibility:hidden}#fb_dialog_loader_spinner{animation:rotateSpinner 1.2s linear infinite;background-color:transparent;background-image:url(https://static.xx.fbcdn.net/rsrc.php/v3/yD/r/t-wz8gw1xG1.png);background-position:50% 50%;background-repeat:no-repeat;height:24px;width:24px}@keyframes rotateSpinner{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
+.fb_iframe_widget{display:inline-block;position:relative}.fb_iframe_widget span{display:inline-block;position:relative;text-align:justify}.fb_iframe_widget iframe{position:absolute}.fb_iframe_widget_fluid_desktop,.fb_iframe_widget_fluid_desktop span,.fb_iframe_widget_fluid_desktop iframe{max-width:100%}.fb_iframe_widget_fluid_desktop iframe{min-width:220px;position:relative}.fb_iframe_widget_lift{z-index:1}.fb_iframe_widget_fluid{display:inline}.fb_iframe_widget_fluid span{width:100%}
+.fb_mpn_mobile_landing_page_slide_out{animation-duration:200ms;animation-name:fb_mpn_landing_page_slide_out;transition-timing-function:ease-in}.fb_mpn_mobile_landing_page_slide_out_from_left{animation-duration:200ms;animation-name:fb_mpn_landing_page_slide_out_from_left;transition-timing-function:ease-in}.fb_mpn_mobile_landing_page_slide_up{animation-duration:500ms;animation-name:fb_mpn_landing_page_slide_up;transition-timing-function:ease-in}.fb_mpn_mobile_bounce_in{animation-duration:300ms;animation-name:fb_mpn_bounce_in;transition-timing-function:ease-in}.fb_mpn_mobile_bounce_out{animation-duration:300ms;animation-name:fb_mpn_bounce_out;transition-timing-function:ease-in}.fb_mpn_mobile_bounce_out_v2{animation-duration:300ms;animation-name:fb_mpn_fade_out;transition-timing-function:ease-in}.fb_customer_chat_bounce_in_v2{animation-duration:300ms;animation-name:fb_bounce_in_v2;transition-timing-function:ease-in}.fb_customer_chat_bounce_in_from_left{animation-duration:300ms;animation-name:fb_bounce_in_from_left;transition-timing-function:ease-in}.fb_customer_chat_bounce_out_v2{animation-duration:300ms;animation-name:fb_bounce_out_v2;transition-timing-function:ease-in}.fb_customer_chat_bounce_out_from_left{animation-duration:300ms;animation-name:fb_bounce_out_from_left;transition-timing-function:ease-in}.fb_invisible_flow{display:inherit;height:0;overflow-x:hidden;width:0}@keyframes fb_mpn_landing_page_slide_out{0%{margin:0 12px;width:100% - 24px}60%{border-radius:18px}100%{border-radius:50%;margin:0 24px;width:60px}}@keyframes fb_mpn_landing_page_slide_out_from_left{0%{left:12px;width:100% - 24px}60%{border-radius:18px}100%{border-radius:50%;left:12px;width:60px}}@keyframes fb_mpn_landing_page_slide_up{0%{bottom:0;opacity:0}100%{bottom:24px;opacity:1}}@keyframes fb_mpn_bounce_in{0%{opacity:.5;top:100%}100%{opacity:1;top:0}}@keyframes fb_mpn_fade_out{0%{bottom:30px;opacity:1}100%{bottom:0;opacity:0}}@keyframes fb_mpn_bounce_out{0%{opacity:1;top:0}100%{opacity:.5;top:100%}}@keyframes fb_bounce_in_v2{0%{opacity:0;transform:scale(0, 0);transform-origin:bottom right}50%{transform:scale(1.03, 1.03);transform-origin:bottom right}100%{opacity:1;transform:scale(1, 1);transform-origin:bottom right}}@keyframes fb_bounce_in_from_left{0%{opacity:0;transform:scale(0, 0);transform-origin:bottom left}50%{transform:scale(1.03, 1.03);transform-origin:bottom left}100%{opacity:1;transform:scale(1, 1);transform-origin:bottom left}}@keyframes fb_bounce_out_v2{0%{opacity:1;transform:scale(1, 1);transform-origin:bottom right}100%{opacity:0;transform:scale(0, 0);transform-origin:bottom right}}@keyframes fb_bounce_out_from_left{0%{opacity:1;transform:scale(1, 1);transform-origin:bottom left}100%{opacity:0;transform:scale(0, 0);transform-origin:bottom left}}@keyframes slideInFromBottom{0%{opacity:.1;transform:translateY(100%)}100%{opacity:1;transform:translateY(0)}}@keyframes slideInFromBottomDelay{0%{opacity:0;transform:translateY(100%)}97%{opacity:0;transform:translateY(100%)}100%{opacity:1;transform:translateY(0)}}</style><style>
+    @font-face {
+      font-family: 'FontinSans_Cyrillic_R_46b';
+      src: url('https://assets.turbologo.com/fonts/FontinSans_Cyrillic_R_46b.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'gooddog';
+      src: url('https://assets.turbologo.com/fonts/gooddog.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'Forum-Regular';
+      src: url('https://assets.turbologo.com/fonts/Forum-Regular.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'FontinSans_Cyrillic_R_46b';
+      src: url('https://assets.turbologo.com/fonts/FontinSans_Cyrillic_R_46b.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'PTSerif-Regular';
+      src: url('https://assets.turbologo.com/fonts/PTSerif-Regular.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'Archive';
+      src: url('https://assets.turbologo.com/fonts/Archive.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'Forum-Regular';
+      src: url('https://assets.turbologo.com/fonts/Forum-Regular.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'Forum-Regular';
+      src: url('https://assets.turbologo.com/fonts/Forum-Regular.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'Gregor_reg_v20-06-2013';
+      src: url('https://assets.turbologo.com/fonts/Gregor_reg_v20-06-2013.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'BebasNeue Regular';
+      src: url('https://assets.turbologo.com/fonts/BebasNeue Regular.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'Idealist-Light';
+      src: url('https://assets.turbologo.com/fonts/Idealist-Light.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'PlayfairDisplay-Black';
+      src: url('https://assets.turbologo.com/fonts/PlayfairDisplay-Black.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'PlayfairDisplay-Black';
+      src: url('https://assets.turbologo.com/fonts/PlayfairDisplay-Black.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'Heuristica-Regular';
+      src: url('https://assets.turbologo.com/fonts/Heuristica-Regular.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'Heuristica-Regular';
+      src: url('https://assets.turbologo.com/fonts/Heuristica-Regular.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'Junegull';
+      src: url('https://assets.turbologo.com/fonts/Junegull.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'Days Sans Black';
+      src: url('https://assets.turbologo.com/fonts/Days Sans Black.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'BadScript-Regular';
+      src: url('https://assets.turbologo.com/fonts/BadScript-Regular.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'Gagalin-Regular';
+      src: url('https://assets.turbologo.com/fonts/Gagalin-Regular.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'ClearSans-Medium';
+      src: url('https://assets.turbologo.com/fonts/ClearSans-Medium.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'Andika-R';
+      src: url('https://assets.turbologo.com/fonts/Andika-R.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'GetVoIP_Grotesque';
+      src: url('https://assets.turbologo.com/fonts/GetVoIP_Grotesque.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'Curely Regular';
+      src: url('https://assets.turbologo.com/fonts/Curely Regular.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'BERNIER';
+      src: url('https://assets.turbologo.com/fonts/BERNIER.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'PlayfairDisplay-Regular';
+      src: url('https://assets.turbologo.com/fonts/PlayfairDisplay-Regular.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'EspumaPro-Regular';
+      src: url('https://assets.turbologo.com/fonts/EspumaPro-Regular.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'Vollkorn-Regular';
+      src: url('https://assets.turbologo.com/fonts/Vollkorn-Regular.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'Days Sans Black';
+      src: url('https://assets.turbologo.com/fonts/Days Sans Black.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'GetVoIP_Grotesque';
+      src: url('https://assets.turbologo.com/fonts/GetVoIP_Grotesque.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'Akrobat-SemiBold';
+      src: url('https://assets.turbologo.com/fonts/Akrobat-SemiBold.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'Iwona-Regular';
+      src: url('https://assets.turbologo.com/fonts/Iwona-Regular.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'BebasNeue Regular';
+      src: url('https://assets.turbologo.com/fonts/BebasNeue Regular.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'GetVoIP_Grotesque';
+      src: url('https://assets.turbologo.com/fonts/GetVoIP_Grotesque.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'Bicubik_Central Europe';
+      src: url('https://assets.turbologo.com/fonts/Bicubik_Central Europe.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'Zantroke-forMac';
+      src: url('https://assets.turbologo.com/fonts/Zantroke-forMac.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'Metropolis 1920';
+      src: url('https://assets.turbologo.com/fonts/Metropolis 1920.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'BebasNeue Regular';
+      src: url('https://assets.turbologo.com/fonts/BebasNeue Regular.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'Archive';
+      src: url('https://assets.turbologo.com/fonts/Archive.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'Heebo-Regular';
+      src: url('https://assets.turbologo.com/fonts/Heebo-Regular.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'Roboto-Regular';
+      src: url('https://assets.turbologo.com/fonts/Roboto-Regular.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'SourceSansPro-Regular';
+      src: url('https://assets.turbologo.com/fonts/SourceSansPro-Regular.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'YesevaOne-Regular';
+      src: url('https://assets.turbologo.com/fonts/YesevaOne-Regular.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'Archive';
+      src: url('https://assets.turbologo.com/fonts/Archive.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'Archive';
+      src: url('https://assets.turbologo.com/fonts/Archive.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'Days Sans Black';
+      src: url('https://assets.turbologo.com/fonts/Days Sans Black.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'BebasNeue Regular';
+      src: url('https://assets.turbologo.com/fonts/BebasNeue Regular.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'Baris_Cerin';
+      src: url('https://assets.turbologo.com/fonts/Baris_Cerin.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'Baris_Cerin';
+      src: url('https://assets.turbologo.com/fonts/Baris_Cerin.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'RubikMonoOne-Regular';
+      src: url('https://assets.turbologo.com/fonts/RubikMonoOne-Regular.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'Airport';
+      src: url('https://assets.turbologo.com/fonts/Airport.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'Bizon';
+      src: url('https://assets.turbologo.com/fonts/Bizon.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'Discipuli Britannica';
+      src: url('https://assets.turbologo.com/fonts/Discipuli Britannica.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'BebasNeue Regular';
+      src: url('https://assets.turbologo.com/fonts/BebasNeue Regular.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'Bizon';
+      src: url('https://assets.turbologo.com/fonts/Bizon.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'DarkEuphorigenic';
+      src: url('https://assets.turbologo.com/fonts/DarkEuphorigenic.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'Catenary-Stamp';
+      src: url('https://assets.turbologo.com/fonts/Catenary-Stamp.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'Docker_One';
+      src: url('https://assets.turbologo.com/fonts/Docker_One.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'Days Sans Black';
+      src: url('https://assets.turbologo.com/fonts/Days Sans Black.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'Archive';
+      src: url('https://assets.turbologo.com/fonts/Archive.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'Chunkfive_Ex';
+      src: url('https://assets.turbologo.com/fonts/Chunkfive_Ex.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'Esqadero FF CY 4F-Regular';
+      src: url('https://assets.turbologo.com/fonts/Esqadero FF CY 4F-Regular.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'AlegreyaSC-Regular';
+      src: url('https://assets.turbologo.com/fonts/AlegreyaSC-Regular.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'Scada-Regular';
+      src: url('https://assets.turbologo.com/fonts/Scada-Regular.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'Angry_Birds_Rus';
+      src: url('https://assets.turbologo.com/fonts/Angry_Birds_Rus.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'Bradobrei';
+      src: url('https://assets.turbologo.com/fonts/Bradobrei.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'Caveat-Regular';
+      src: url('https://assets.turbologo.com/fonts/Caveat-Regular.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'CormorantSC-Regular';
+      src: url('https://assets.turbologo.com/fonts/CormorantSC-Regular.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'CormorantSC-Regular';
+      src: url('https://assets.turbologo.com/fonts/CormorantSC-Regular.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'CormorantSC-Regular';
+      src: url('https://assets.turbologo.com/fonts/CormorantSC-Regular.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'Days Sans Black';
+      src: url('https://assets.turbologo.com/fonts/Days Sans Black.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'ClearSans-Light';
+      src: url('https://assets.turbologo.com/fonts/ClearSans-Light.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'ClearSans-Light';
+      src: url('https://assets.turbologo.com/fonts/ClearSans-Light.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'BebasNeue Regular';
+      src: url('https://assets.turbologo.com/fonts/BebasNeue Regular.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'DarkEuphorigenic';
+      src: url('https://assets.turbologo.com/fonts/DarkEuphorigenic.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'RubikMonoOne-Regular';
+      src: url('https://assets.turbologo.com/fonts/RubikMonoOne-Regular.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'RubikMonoOne-Regular';
+      src: url('https://assets.turbologo.com/fonts/RubikMonoOne-Regular.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'Akrobat-Regular';
+      src: url('https://assets.turbologo.com/fonts/Akrobat-Regular.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'black';
+      src: url('https://assets.turbologo.com/fonts/black.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'Casper';
+      src: url('https://assets.turbologo.com/fonts/Casper.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'GetVoIP_Grotesque';
+      src: url('https://assets.turbologo.com/fonts/GetVoIP_Grotesque.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'CormorantSC-Regular';
+      src: url('https://assets.turbologo.com/fonts/CormorantSC-Regular.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'gooddog';
+      src: url('https://assets.turbologo.com/fonts/gooddog.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'gost_2_304-81_type';
+      src: url('https://assets.turbologo.com/fonts/gost_2_304-81_type.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'Furore';
+      src: url('https://assets.turbologo.com/fonts/Furore.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'PoiretOne-Regular';
+      src: url('https://assets.turbologo.com/fonts/PoiretOne-Regular.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'CHOPIN';
+      src: url('https://assets.turbologo.com/fonts/CHOPIN.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'BERNIER';
+      src: url('https://assets.turbologo.com/fonts/BERNIER.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'RussoOne-Regular';
+      src: url('https://assets.turbologo.com/fonts/RussoOne-Regular.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'Fregat';
+      src: url('https://assets.turbologo.com/fonts/Fregat.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'GetVoIP_Grotesque';
+      src: url('https://assets.turbologo.com/fonts/GetVoIP_Grotesque.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'ClearSans-Medium';
+      src: url('https://assets.turbologo.com/fonts/ClearSans-Medium.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'BERNIER';
+      src: url('https://assets.turbologo.com/fonts/BERNIER.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'Days Sans Black';
+      src: url('https://assets.turbologo.com/fonts/Days Sans Black.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'ClearSans-Medium';
+      src: url('https://assets.turbologo.com/fonts/ClearSans-Medium.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'Days Sans Black';
+      src: url('https://assets.turbologo.com/fonts/Days Sans Black.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'GetVoIP_Grotesque';
+      src: url('https://assets.turbologo.com/fonts/GetVoIP_Grotesque.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'Hagin Caps Medium';
+      src: url('https://assets.turbologo.com/fonts/Hagin Caps Medium.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'Furore';
+      src: url('https://assets.turbologo.com/fonts/Furore.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'Sergey Oleynik - Mateur';
+      src: url('https://assets.turbologo.com/fonts/Sergey Oleynik - Mateur.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'Iwona-Regular';
+      src: url('https://assets.turbologo.com/fonts/Iwona-Regular.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'BebasNeue Regular';
+      src: url('https://assets.turbologo.com/fonts/BebasNeue Regular.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'Attentica 4F UltraLight';
+      src: url('https://assets.turbologo.com/fonts/Attentica 4F UltraLight.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'Furore';
+      src: url('https://assets.turbologo.com/fonts/Furore.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'Furore';
+      src: url('https://assets.turbologo.com/fonts/Furore.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'FontinSans_Cyrillic_R_46b';
+      src: url('https://assets.turbologo.com/fonts/FontinSans_Cyrillic_R_46b.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'gooddog';
+      src: url('https://assets.turbologo.com/fonts/gooddog.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'Forum-Regular';
+      src: url('https://assets.turbologo.com/fonts/Forum-Regular.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'FontinSans_Cyrillic_R_46b';
+      src: url('https://assets.turbologo.com/fonts/FontinSans_Cyrillic_R_46b.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'PTSerif-Regular';
+      src: url('https://assets.turbologo.com/fonts/PTSerif-Regular.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'Archive';
+      src: url('https://assets.turbologo.com/fonts/Archive.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'Forum-Regular';
+      src: url('https://assets.turbologo.com/fonts/Forum-Regular.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'Forum-Regular';
+      src: url('https://assets.turbologo.com/fonts/Forum-Regular.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'Gregor_reg_v20-06-2013';
+      src: url('https://assets.turbologo.com/fonts/Gregor_reg_v20-06-2013.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'FontinSans_Cyrillic_R_46b';
+      src: url('https://assets.turbologo.com/fonts/FontinSans_Cyrillic_R_46b.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'gooddog';
+      src: url('https://assets.turbologo.com/fonts/gooddog.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'Forum-Regular';
+      src: url('https://assets.turbologo.com/fonts/Forum-Regular.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'FontinSans_Cyrillic_R_46b';
+      src: url('https://assets.turbologo.com/fonts/FontinSans_Cyrillic_R_46b.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'PTSerif-Regular';
+      src: url('https://assets.turbologo.com/fonts/PTSerif-Regular.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'Archive';
+      src: url('https://assets.turbologo.com/fonts/Archive.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'Forum-Regular';
+      src: url('https://assets.turbologo.com/fonts/Forum-Regular.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'Forum-Regular';
+      src: url('https://assets.turbologo.com/fonts/Forum-Regular.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'Gregor_reg_v20-06-2013';
+      src: url('https://assets.turbologo.com/fonts/Gregor_reg_v20-06-2013.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'FontinSans_Cyrillic_R_46b';
+      src: url('https://assets.turbologo.com/fonts/FontinSans_Cyrillic_R_46b.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'gooddog';
+      src: url('https://assets.turbologo.com/fonts/gooddog.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'Forum-Regular';
+      src: url('https://assets.turbologo.com/fonts/Forum-Regular.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'FontinSans_Cyrillic_R_46b';
+      src: url('https://assets.turbologo.com/fonts/FontinSans_Cyrillic_R_46b.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'PTSerif-Regular';
+      src: url('https://assets.turbologo.com/fonts/PTSerif-Regular.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'Archive';
+      src: url('https://assets.turbologo.com/fonts/Archive.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'Forum-Regular';
+      src: url('https://assets.turbologo.com/fonts/Forum-Regular.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'Forum-Regular';
+      src: url('https://assets.turbologo.com/fonts/Forum-Regular.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'Gregor_reg_v20-06-2013';
+      src: url('https://assets.turbologo.com/fonts/Gregor_reg_v20-06-2013.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'BebasNeue Regular';
+      src: url('https://assets.turbologo.com/fonts/BebasNeue Regular.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'Idealist-Light';
+      src: url('https://assets.turbologo.com/fonts/Idealist-Light.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'PlayfairDisplay-Black';
+      src: url('https://assets.turbologo.com/fonts/PlayfairDisplay-Black.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'PlayfairDisplay-Black';
+      src: url('https://assets.turbologo.com/fonts/PlayfairDisplay-Black.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'Heuristica-Regular';
+      src: url('https://assets.turbologo.com/fonts/Heuristica-Regular.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'Heuristica-Regular';
+      src: url('https://assets.turbologo.com/fonts/Heuristica-Regular.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'Junegull';
+      src: url('https://assets.turbologo.com/fonts/Junegull.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'Days Sans Black';
+      src: url('https://assets.turbologo.com/fonts/Days Sans Black.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'BadScript-Regular';
+      src: url('https://assets.turbologo.com/fonts/BadScript-Regular.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'Gagalin-Regular';
+      src: url('https://assets.turbologo.com/fonts/Gagalin-Regular.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'ClearSans-Medium';
+      src: url('https://assets.turbologo.com/fonts/ClearSans-Medium.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'Andika-R';
+      src: url('https://assets.turbologo.com/fonts/Andika-R.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'GetVoIP_Grotesque';
+      src: url('https://assets.turbologo.com/fonts/GetVoIP_Grotesque.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'Curely Regular';
+      src: url('https://assets.turbologo.com/fonts/Curely Regular.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'BERNIER';
+      src: url('https://assets.turbologo.com/fonts/BERNIER.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'PlayfairDisplay-Regular';
+      src: url('https://assets.turbologo.com/fonts/PlayfairDisplay-Regular.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'EspumaPro-Regular';
+      src: url('https://assets.turbologo.com/fonts/EspumaPro-Regular.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'Vollkorn-Regular';
+      src: url('https://assets.turbologo.com/fonts/Vollkorn-Regular.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'Days Sans Black';
+      src: url('https://assets.turbologo.com/fonts/Days Sans Black.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'GetVoIP_Grotesque';
+      src: url('https://assets.turbologo.com/fonts/GetVoIP_Grotesque.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'Akrobat-SemiBold';
+      src: url('https://assets.turbologo.com/fonts/Akrobat-SemiBold.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'Iwona-Regular';
+      src: url('https://assets.turbologo.com/fonts/Iwona-Regular.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'BebasNeue Regular';
+      src: url('https://assets.turbologo.com/fonts/BebasNeue Regular.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'GetVoIP_Grotesque';
+      src: url('https://assets.turbologo.com/fonts/GetVoIP_Grotesque.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'Bicubik_Central Europe';
+      src: url('https://assets.turbologo.com/fonts/Bicubik_Central Europe.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'Zantroke-forMac';
+      src: url('https://assets.turbologo.com/fonts/Zantroke-forMac.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'Metropolis 1920';
+      src: url('https://assets.turbologo.com/fonts/Metropolis 1920.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'BebasNeue Regular';
+      src: url('https://assets.turbologo.com/fonts/BebasNeue Regular.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'FontinSans_Cyrillic_R_46b';
+      src: url('https://assets.turbologo.com/fonts/FontinSans_Cyrillic_R_46b.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'gooddog';
+      src: url('https://assets.turbologo.com/fonts/gooddog.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'Forum-Regular';
+      src: url('https://assets.turbologo.com/fonts/Forum-Regular.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'FontinSans_Cyrillic_R_46b';
+      src: url('https://assets.turbologo.com/fonts/FontinSans_Cyrillic_R_46b.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'PTSerif-Regular';
+      src: url('https://assets.turbologo.com/fonts/PTSerif-Regular.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'Archive';
+      src: url('https://assets.turbologo.com/fonts/Archive.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'Forum-Regular';
+      src: url('https://assets.turbologo.com/fonts/Forum-Regular.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'Forum-Regular';
+      src: url('https://assets.turbologo.com/fonts/Forum-Regular.woff2');
+    }
+  </style><style>
+    @font-face {
+      font-family: 'Gregor_reg_v20-06-2013';
+      src: url('https://assets.turbologo.com/fonts/Gregor_reg_v20-06-2013.woff2');
+    }
+  </style></head>
+  <body style="overflow: initial; position: relative;">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KKNJSZH"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <div id="editor" class="editor"><div class="header"><a href="https://turbologo.com/pt/app/generate?company_name=pradoar&amp;slogan=&amp;industry_id=60#" class="header__sidebar_btn"><span class="icon icon-nav"></span></a><a class="header__back_btn" href="https://turbologo.com/pt/app/generate?company_name=pradoar&amp;slogan=&amp;industry_id=60#"><span class="icon icon-arrow"></span></a><a class="header__logo " href="https://turbologo.com/pt"></a></div><div class="sidebar "><div class="sidebar_header"><img data-src="https://assets.turbologo.com/editor/img/sidebar-logo_cache-1.svg" src="./modelo1_files/sidebar-logo_cache-1.svg" alt="" class=" ls-is-cached lazyloaded"><a class="sidebar__close" href="https://turbologo.com/pt/app/generate?company_name=pradoar&amp;slogan=&amp;industry_id=60#"><span class="icon icon-close"></span></a></div><ul class="sidebar_nav"><li><a class="sidebar_nav__item sidebar_nav__item--home" href="https://turbologo.com/pt"><span class="icon-container"><span class="icon icon-home"></span></span>Casa</a></li><li><a href="https://turbologo.com/designs" class="sidebar_nav__item sidebar_nav__item--logos"><span class="icon-container"><span class="icon icon-templates"></span></span>Meus logotipos</a></li><li><a class="sidebar_nav__item sidebar_nav__item--create_logo" href="https://turbologo.com/pt/app"><span class="icon-container"><span class="icon icon-tassel"></span></span>Criar logo</a></li><li class="sidebar_nav__seperator"></li><li><a class="sidebar_nav__item sidebar_nav__item--support" href="https://turbologo.com/pt/contacts"><span class="icon-container"><span class="icon icon-support"></span></span>Apoio, suporte</a></li><li><a href="https://turbologo.com/payments" class="sidebar_nav__item sidebar_nav__item--payments"><span class="icon-container"><span class="icon icon-payments"></span></span>Pagamentos</a></li><li><a class="sidebar_nav__item sidebar_nav__item--account" href="https://turbologo.com/settings">Conta</a></li><li><a class="sidebar_nav__item sidebar_nav__item--language " href="https://turbologo.com/pt/app/generate?company_name=pradoar&amp;slogan=&amp;industry_id=60#"><span class="icon-container"><span class="icon icon-language"></span></span>Português<span class="icon icon-arrow-light"></span></a></li><li class="sidebar_nav__seperator"></li><li><a class="sidebar_nav__item" href="https://turbologo.com/pt/app/generate?company_name=pradoar&amp;slogan=&amp;industry_id=60#">Sair</a></li></ul></div><div class="sidebar_overlay "></div><div class="ministeps"><div class="ministeps_in"><div class="ministeps_info"><input class="ministeps_info__input " type="text" placeholder="Insira o nome da companhia" value="pradoar"><input class="ministeps_info__input " type="text" placeholder="Slogan (opcional)" value=""></div><div class="ministeps_colors"><div class="ministeps_colors__color ministeps_colors__color--selected" style="background: rgb(234, 27, 27);"><div class="ministeps_colors__color_shades"><div class="ministeps_colors__color_shade"></div><div class="ministeps_colors__color_shade"></div><div class="ministeps_colors__color_shade"></div><div class="ministeps_colors__color_shade"></div><div class="ministeps_colors__color_shade"></div><div class="ministeps_colors__color_shade"></div><div class="ministeps_colors__color_shade"></div><div class="ministeps_colors__color_shade"></div><div class="ministeps_colors__color_shade"></div></div></div><div class="ministeps_colors__color "><div class="ministeps_colors__color_shades"><div class="ministeps_colors__color_shade"></div><div class="ministeps_colors__color_shade"></div><div class="ministeps_colors__color_shade"></div><div class="ministeps_colors__color_shade"></div><div class="ministeps_colors__color_shade"></div><div class="ministeps_colors__color_shade"></div><div class="ministeps_colors__color_shade"></div><div class="ministeps_colors__color_shade"></div><div class="ministeps_colors__color_shade"></div></div></div><div class="ministeps_colors__color "><div class="ministeps_colors__color_shades"><div class="ministeps_colors__color_shade"></div><div class="ministeps_colors__color_shade"></div><div class="ministeps_colors__color_shade"></div><div class="ministeps_colors__color_shade"></div><div class="ministeps_colors__color_shade"></div><div class="ministeps_colors__color_shade"></div><div class="ministeps_colors__color_shade"></div><div class="ministeps_colors__color_shade"></div><div class="ministeps_colors__color_shade"></div></div></div><div data-type="close" class="ministeps_colors__more"></div></div><div class="ministeps_symbols"><div class="ministeps_symbols__symbol ministeps_symbols__symbol--filled"><img alt="" class=" ls-is-cached lazyloaded" data-src="https://static.thenounproject.com/png/1173182-200.png" src="./modelo1_files/1173182-200.png"></div><div class="ministeps_symbols__symbol ministeps_symbols__symbol--filled"><img alt="" class=" ls-is-cached lazyloaded" data-src="https://static.thenounproject.com/png/34196-200.png" src="./modelo1_files/34196-200.png"></div><div class="ministeps_symbols__symbol ministeps_symbols__symbol--filled"><img alt="" class=" lazyloaded" data-src="https://static.thenounproject.com/png/944919-200.png" src="./modelo1_files/944919-200.png"></div><div class="ministeps_symbols__symbol ministeps_symbols__symbol--filled"><img alt="" class=" ls-is-cached lazyloaded" data-src="https://static.thenounproject.com/png/1331667-200.png" src="./modelo1_files/1331667-200.png"></div><div class="ministeps_symbols__symbol"><img alt="" class=" lazyloaded"></div><div data-type="close" class="ministeps_symbols__more"></div></div><button class="ministeps__refresh ministeps__refresh--disabled " disabled="">Atualizar</button></div></div><div class="generator"><div class="generator_header"><h3>Escolha um logotipo para salvar e começar a editar</h3></div><div class="generator_list"><div class="generator_item generator_item--watermark"><canvas class="lower-canvas" width="500" height="500" style="width: 500px; height: 500px;"></canvas><div class="generator_item_buttons"><a class="generator_item__edit" href="https://turbologo.com/pt/app/generate?company_name=pradoar&amp;slogan=&amp;industry_id=60#">Editar logotipo</a><a class="generator_item__save  " href="https://turbologo.com/pt/app/generate?company_name=pradoar&amp;slogan=&amp;industry_id=60#"></a><a class="generator_item__download" href="https://turbologo.com/pt/app/generate?company_name=pradoar&amp;slogan=&amp;industry_id=60#"></a></div></div><div class="generator_item generator_item--watermark"><canvas class="lower-canvas" width="500" height="500" style="width: 500px; height: 500px;"></canvas><div class="generator_item_buttons"><a class="generator_item__edit" href="https://turbologo.com/pt/app/generate?company_name=pradoar&amp;slogan=&amp;industry_id=60#">Editar logotipo</a><a class="generator_item__save  " href="https://turbologo.com/pt/app/generate?company_name=pradoar&amp;slogan=&amp;industry_id=60#"></a><a class="generator_item__download" href="https://turbologo.com/pt/app/generate?company_name=pradoar&amp;slogan=&amp;industry_id=60#"></a></div></div><div class="generator_item generator_item--watermark"><canvas class="lower-canvas" width="500" height="500" style="width: 500px; height: 500px;"></canvas><div class="generator_item_buttons"><a class="generator_item__edit" href="https://turbologo.com/pt/app/generate?company_name=pradoar&amp;slogan=&amp;industry_id=60#">Editar logotipo</a><a class="generator_item__save  " href="https://turbologo.com/pt/app/generate?company_name=pradoar&amp;slogan=&amp;industry_id=60#"></a><a class="generator_item__download" href="https://turbologo.com/pt/app/generate?company_name=pradoar&amp;slogan=&amp;industry_id=60#"></a></div></div><div class="generator_item generator_item--watermark"><canvas class="lower-canvas" width="500" height="500" style="width: 500px; height: 500px;"></canvas><div class="generator_item_buttons"><a class="generator_item__edit" href="https://turbologo.com/pt/app/generate?company_name=pradoar&amp;slogan=&amp;industry_id=60#">Editar logotipo</a><a class="generator_item__save  " href="https://turbologo.com/pt/app/generate?company_name=pradoar&amp;slogan=&amp;industry_id=60#"></a><a class="generator_item__download" href="https://turbologo.com/pt/app/generate?company_name=pradoar&amp;slogan=&amp;industry_id=60#"></a></div></div><div class="generator_item generator_item--watermark"><canvas class="lower-canvas" width="500" height="500" style="width: 500px; height: 500px;"></canvas><div class="generator_item_buttons"><a class="generator_item__edit" href="https://turbologo.com/pt/app/generate?company_name=pradoar&amp;slogan=&amp;industry_id=60#">Editar logotipo</a><a class="generator_item__save  " href="https://turbologo.com/pt/app/generate?company_name=pradoar&amp;slogan=&amp;industry_id=60#"></a><a class="generator_item__download" href="https://turbologo.com/pt/app/generate?company_name=pradoar&amp;slogan=&amp;industry_id=60#"></a></div></div><div class="generator_item generator_item--watermark"><canvas class="lower-canvas" width="500" height="500" style="width: 500px; height: 500px;"></canvas><div class="generator_item_buttons"><a class="generator_item__edit" href="https://turbologo.com/pt/app/generate?company_name=pradoar&amp;slogan=&amp;industry_id=60#">Editar logotipo</a><a class="generator_item__save  " href="https://turbologo.com/pt/app/generate?company_name=pradoar&amp;slogan=&amp;industry_id=60#"></a><a class="generator_item__download" href="https://turbologo.com/pt/app/generate?company_name=pradoar&amp;slogan=&amp;industry_id=60#"></a></div></div><div class="generator_item generator_item--watermark"><canvas class="lower-canvas" width="500" height="500" style="width: 500px; height: 500px;"></canvas><div class="generator_item_buttons"><a class="generator_item__edit" href="https://turbologo.com/pt/app/generate?company_name=pradoar&amp;slogan=&amp;industry_id=60#">Editar logotipo</a><a class="generator_item__save  " href="https://turbologo.com/pt/app/generate?company_name=pradoar&amp;slogan=&amp;industry_id=60#"></a><a class="generator_item__download" href="https://turbologo.com/pt/app/generate?company_name=pradoar&amp;slogan=&amp;industry_id=60#"></a></div></div><div class="generator_item generator_item--watermark"><canvas class="lower-canvas" width="500" height="500" style="width: 500px; height: 500px;"></canvas><div class="generator_item_buttons"><a class="generator_item__edit" href="https://turbologo.com/pt/app/generate?company_name=pradoar&amp;slogan=&amp;industry_id=60#">Editar logotipo</a><a class="generator_item__save  " href="https://turbologo.com/pt/app/generate?company_name=pradoar&amp;slogan=&amp;industry_id=60#"></a><a class="generator_item__download" href="https://turbologo.com/pt/app/generate?company_name=pradoar&amp;slogan=&amp;industry_id=60#"></a></div></div></div></div></div>
+    <div id="modal"></div>
+    <div id="virtual-svg"></div>
+
+    <input type="hidden" id="init-data" value="{&quot;language&quot;:&quot;pt&quot;,&quot;rating&quot;:4.93,&quot;raiting&quot;:4.93,&quot;industries&quot;:[{&quot;value&quot;:13,&quot;label&quot;:&quot;Abstração&quot;},{&quot;value&quot;:21,&quot;label&quot;:&quot;Acessórios&quot;},{&quot;value&quot;:55,&quot;label&quot;:&quot;Agencia de propaganda&quot;},{&quot;value&quot;:8,&quot;label&quot;:&quot;Animais&quot;},{&quot;value&quot;:44,&quot;label&quot;:&quot;Aprendizagem, educação&quot;},{&quot;value&quot;:17,&quot;label&quot;:&quot;Arquitetura&quot;},{&quot;value&quot;:86,&quot;label&quot;:&quot;Arte&quot;},{&quot;value&quot;:99,&quot;label&quot;:&quot;Auditoria&quot;},{&quot;value&quot;:15,&quot;label&quot;:&quot;Auto&quot;},{&quot;value&quot;:14,&quot;label&quot;:&quot;Aviação&quot;},{&quot;value&quot;:18,&quot;label&quot;:&quot;Banco&quot;},{&quot;value&quot;:92,&quot;label&quot;:&quot;Barbearia&quot;},{&quot;value&quot;:1,&quot;label&quot;:&quot;Blogger&quot;},{&quot;value&quot;:31,&quot;label&quot;:&quot;Cafeteria&quot;},{&quot;value&quot;:32,&quot;label&quot;:&quot;Cafeteria&quot;},{&quot;value&quot;:20,&quot;label&quot;:&quot;Caridade&quot;},{&quot;value&quot;:24,&quot;label&quot;:&quot;Casa&quot;},{&quot;value&quot;:59,&quot;label&quot;:&quot;Casamento&quot;},{&quot;value&quot;:46,&quot;label&quot;:&quot;Caça e pesca&quot;},{&quot;value&quot;:33,&quot;label&quot;:&quot;Cinema&quot;},{&quot;value&quot;:65,&quot;label&quot;:&quot;Clinica odontológica&quot;},{&quot;value&quot;:10,&quot;label&quot;:&quot;Clube de futebol&quot;},{&quot;value&quot;:3,&quot;label&quot;:&quot;Comida&quot;},{&quot;value&quot;:35,&quot;label&quot;:&quot;Computadores&quot;},{&quot;value&quot;:67,&quot;label&quot;:&quot;Construção&quot;},{&quot;value&quot;:36,&quot;label&quot;:&quot;Consultando&quot;},{&quot;value&quot;:22,&quot;label&quot;:&quot;Contabilidade&quot;},{&quot;value&quot;:83,&quot;label&quot;:&quot;Cosméticos&quot;},{&quot;value&quot;:11,&quot;label&quot;:&quot;Crianças&quot;},{&quot;value&quot;:12,&quot;label&quot;:&quot;Desenvolvimento de software&quot;},{&quot;value&quot;:16,&quot;label&quot;:&quot;Empresas agrícolas&quot;},{&quot;value&quot;:28,&quot;label&quot;:&quot;Engenharia&quot;},{&quot;value&quot;:54,&quot;label&quot;:&quot;Entretenimento&quot;},{&quot;value&quot;:130,&quot;label&quot;:&quot;Escola&quot;},{&quot;value&quot;:63,&quot;label&quot;:&quot;Esporte&quot;},{&quot;value&quot;:25,&quot;label&quot;:&quot;Estilo de vida saudável&quot;},{&quot;value&quot;:60,&quot;label&quot;:&quot;Família&quot;},{&quot;value&quot;:96,&quot;label&quot;:&quot;Feito à mão&quot;},{&quot;value&quot;:75,&quot;label&quot;:&quot;Finança&quot;},{&quot;value&quot;:95,&quot;label&quot;:&quot;Flores&quot;},{&quot;value&quot;:77,&quot;label&quot;:&quot;Fotografia&quot;},{&quot;value&quot;:76,&quot;label&quot;:&quot;Ginástica&quot;},{&quot;value&quot;:88,&quot;label&quot;:&quot;Gás de petróleo&quot;},{&quot;value&quot;:45,&quot;label&quot;:&quot;Hotel&quot;},{&quot;value&quot;:52,&quot;label&quot;:&quot;Industrial&quot;},{&quot;value&quot;:2,&quot;label&quot;:&quot;Instagram&quot;},{&quot;value&quot;:30,&quot;label&quot;:&quot;Ioga&quot;},{&quot;value&quot;:80,&quot;label&quot;:&quot;Joalheria&quot;},{&quot;value&quot;:34,&quot;label&quot;:&quot;Jogos de computador&quot;},{&quot;value&quot;:81,&quot;label&quot;:&quot;Jurisprudência&quot;},{&quot;value&quot;:78,&quot;label&quot;:&quot;Lavagem a seco, lavanderia&quot;},{&quot;value&quot;:26,&quot;label&quot;:&quot;Loja de animais&quot;},{&quot;value&quot;:29,&quot;label&quot;:&quot;Loja online&quot;},{&quot;value&quot;:82,&quot;label&quot;:&quot;Manicure&quot;},{&quot;value&quot;:93,&quot;label&quot;:&quot;Maquiador&quot;},{&quot;value&quot;:39,&quot;label&quot;:&quot;Marketing&quot;},{&quot;value&quot;:7,&quot;label&quot;:&quot;Medicamento&quot;},{&quot;value&quot;:40,&quot;label&quot;:&quot;Mobília&quot;},{&quot;value&quot;:41,&quot;label&quot;:&quot;Música&quot;},{&quot;value&quot;:51,&quot;label&quot;:&quot;Natureza&quot;},{&quot;value&quot;:37,&quot;label&quot;:&quot;Paisagismo&quot;},{&quot;value&quot;:108,&quot;label&quot;:&quot;Podcast&quot;},{&quot;value&quot;:50,&quot;label&quot;:&quot;Política&quot;},{&quot;value&quot;:42,&quot;label&quot;:&quot;Propriedade&quot;},{&quot;value&quot;:84,&quot;label&quot;:&quot;Reparos&quot;},{&quot;value&quot;:57,&quot;label&quot;:&quot;Restaurante&quot;},{&quot;value&quot;:6,&quot;label&quot;:&quot;Roupas&quot;},{&quot;value&quot;:94,&quot;label&quot;:&quot;Salão de beleza&quot;},{&quot;value&quot;:47,&quot;label&quot;:&quot;Segurança&quot;},{&quot;value&quot;:66,&quot;label&quot;:&quot;Seguro&quot;},{&quot;value&quot;:61,&quot;label&quot;:&quot;Serviço de entrega&quot;},{&quot;value&quot;:62,&quot;label&quot;:&quot;Spa&quot;},{&quot;value&quot;:69,&quot;label&quot;:&quot;Tatuagem&quot;},{&quot;value&quot;:72,&quot;label&quot;:&quot;Transporte&quot;},{&quot;value&quot;:131,&quot;label&quot;:&quot;Tratamento do relvado&quot;},{&quot;value&quot;:87,&quot;label&quot;:&quot;Tricô&quot;},{&quot;value&quot;:73,&quot;label&quot;:&quot;Turismo&quot;},{&quot;value&quot;:70,&quot;label&quot;:&quot;Tv, televisão&quot;},{&quot;value&quot;:97,&quot;label&quot;:&quot;Táxi&quot;},{&quot;value&quot;:56,&quot;label&quot;:&quot;Têmpora&quot;},{&quot;value&quot;:85,&quot;label&quot;:&quot;Têxtil&quot;}],&quot;logo_prices&quot;:{&quot;currency&quot;:&quot;brl&quot;,&quot;packages&quot;:{&quot;basic&quot;:29,&quot;optima&quot;:49,&quot;business&quot;:89,&quot;subscription_basic&quot;:5,&quot;subscription_premium&quot;:9.9},&quot;old_prices&quot;:{&quot;basic&quot;:null,&quot;optima&quot;:99,&quot;business&quot;:179,&quot;subscription_premium&quot;:19.9}},&quot;payment_methods&quot;:[&quot;stripe_card&quot;,&quot;paypal&quot;],&quot;stripe_public_key&quot;:&quot;pk_live_8sR7HeyAqxObjgDaMqw3QgmY&quot;,&quot;stripe_zip_code&quot;:true,&quot;icons_default_related_terms&quot;:[&quot;flores&quot;,&quot;círculo&quot;,&quot;coroa&quot;,&quot;casa&quot;,&quot;garota&quot;,&quot;roupas&quot;,&quot;resumo&quot;,&quot;coração&quot;,&quot;esporte&quot;,&quot;quadrado&quot;,&quot;árvore&quot;,&quot;triângulo&quot;],&quot;role&quot;:null,&quot;is_admin&quot;:false,&quot;root_url&quot;:&quot;/pt/app&quot;,&quot;release_id&quot;:&quot;ad8a7eb16445c6137be3&quot;,&quot;routes&quot;:{&quot;en&quot;:{&quot;home&quot;:&quot;https://turbologo.com&quot;,&quot;logo-maker&quot;:&quot;https://turbologo.com/logo-maker&quot;,&quot;app&quot;:&quot;https://turbologo.com/app&quot;,&quot;contacts&quot;:&quot;https://turbologo.com/contacts&quot;,&quot;pricing&quot;:&quot;https://turbologo.com/pricing&quot;,&quot;faq&quot;:&quot;https://turbologo.com/faq&quot;,&quot;services&quot;:&quot;https://turbologo.com/services&quot;,&quot;how-it-works&quot;:&quot;https://turbologo.com/how-it-works&quot;,&quot;reviews&quot;:&quot;https://turbologo.com/reviews&quot;,&quot;terms&quot;:&quot;https://turbologo.com/terms&quot;,&quot;privacy&quot;:&quot;https://turbologo.com/privacy&quot;,&quot;about_us&quot;:&quot;https://turbologo.com/about_us&quot;,&quot;blog&quot;:&quot;https://turbologo.com/articles/&quot;,&quot;logo-in-vector&quot;:&quot;https://turbologo.com/logo-in-vector&quot;,&quot;corporate-identity&quot;:&quot;https://turbologo.com/corporate-identity&quot;,&quot;gallery&quot;:&quot;https://turbologo.com/logo-ideas&quot;,&quot;affiliate&quot;:&quot;https://turbologo.com/affiliate&quot;},&quot;ru&quot;:{&quot;home&quot;:&quot;https://turbologo.ru&quot;,&quot;logo-maker&quot;:&quot;https://turbologo.ru/create-logo&quot;,&quot;app&quot;:&quot;https://turbologo.ru/app&quot;,&quot;contacts&quot;:&quot;https://turbologo.ru/contacts&quot;,&quot;pricing&quot;:&quot;https://turbologo.ru/pricing&quot;,&quot;faq&quot;:&quot;https://turbologo.ru/faq&quot;,&quot;services&quot;:&quot;https://turbologo.ru/services&quot;,&quot;how-it-works&quot;:&quot;https://turbologo.ru/how-it-works&quot;,&quot;reviews&quot;:&quot;https://turbologo.ru/reviews&quot;,&quot;privacy&quot;:&quot;https://turbologo.ru/agreement.pdf&quot;,&quot;about_us&quot;:&quot;https://turbologo.ru/about_us&quot;,&quot;blog&quot;:&quot;https://turbologo.ru/blog/&quot;,&quot;logo-development&quot;:&quot;https://turbologo.ru/razrabotka-logo&quot;,&quot;logo-in-vector&quot;:&quot;https://turbologo.ru/logo-v-vektore&quot;,&quot;corporate-identity&quot;:&quot;https://turbologo.ru/firmenniy-stil&quot;,&quot;gallery&quot;:&quot;https://turbologo.ru/gallery&quot;,&quot;affiliate&quot;:&quot;https://turbologo.ru/affiliate&quot;},&quot;es&quot;:{&quot;home&quot;:&quot;https://turbologo.com/es&quot;,&quot;logo-maker&quot;:&quot;https://turbologo.com/es/crear-logo&quot;,&quot;app&quot;:&quot;https://turbologo.com/es/app&quot;,&quot;contacts&quot;:&quot;https://turbologo.com/es/contacts&quot;,&quot;pricing&quot;:&quot;https://turbologo.com/es/pricing&quot;,&quot;faq&quot;:&quot;https://turbologo.com/es/faq&quot;,&quot;services&quot;:&quot;https://turbologo.com/es/services&quot;,&quot;how-it-works&quot;:&quot;https://turbologo.com/es/how-it-works&quot;,&quot;reviews&quot;:&quot;https://turbologo.com/es/reviews&quot;,&quot;terms&quot;:&quot;https://turbologo.com/es/terms&quot;,&quot;privacy&quot;:&quot;https://turbologo.com/es/privacy&quot;,&quot;gallery&quot;:&quot;https://turbologo.com/es/ideas-de-logotipos&quot;,&quot;blog&quot;:&quot;https://turbologo.com/es/blog/&quot;,&quot;affiliate&quot;:&quot;https://turbologo.com/es/affiliate&quot;},&quot;it&quot;:{&quot;home&quot;:&quot;https://turbologo.com/it&quot;,&quot;logo-maker&quot;:&quot;https://turbologo.com/it/crea-logo&quot;,&quot;app&quot;:&quot;https://turbologo.com/it/app&quot;,&quot;contacts&quot;:&quot;https://turbologo.com/it/contacts&quot;,&quot;pricing&quot;:&quot;https://turbologo.com/it/pricing&quot;,&quot;faq&quot;:&quot;https://turbologo.com/it/faq&quot;,&quot;services&quot;:&quot;https://turbologo.com/it/services&quot;,&quot;how-it-works&quot;:&quot;https://turbologo.com/it/how-it-works&quot;,&quot;reviews&quot;:&quot;https://turbologo.com/it/reviews&quot;,&quot;terms&quot;:&quot;https://turbologo.com/it/terms&quot;,&quot;privacy&quot;:&quot;https://turbologo.com/it/privacy&quot;,&quot;gallery&quot;:&quot;https://turbologo.com/it/idee-per-il-logo&quot;,&quot;blog&quot;:&quot;https://turbologo.com/it/blog/&quot;,&quot;affiliate&quot;:&quot;https://turbologo.com/it/affiliate&quot;},&quot;fr&quot;:{&quot;home&quot;:&quot;https://turbologo.com/fr&quot;,&quot;logo-maker&quot;:&quot;https://turbologo.com/fr/creer-un-logo&quot;,&quot;app&quot;:&quot;https://turbologo.com/fr/app&quot;,&quot;contacts&quot;:&quot;https://turbologo.com/fr/contacts&quot;,&quot;pricing&quot;:&quot;https://turbologo.com/fr/pricing&quot;,&quot;faq&quot;:&quot;https://turbologo.com/fr/faq&quot;,&quot;services&quot;:&quot;https://turbologo.com/fr/services&quot;,&quot;how-it-works&quot;:&quot;https://turbologo.com/fr/how-it-works&quot;,&quot;reviews&quot;:&quot;https://turbologo.com/fr/reviews&quot;,&quot;terms&quot;:&quot;https://turbologo.com/fr/terms&quot;,&quot;privacy&quot;:&quot;https://turbologo.com/fr/privacy&quot;,&quot;gallery&quot;:&quot;https://turbologo.com/fr/idees-de-logo&quot;,&quot;blog&quot;:&quot;https://turbologo.com/fr/blog/&quot;,&quot;affiliate&quot;:&quot;https://turbologo.com/fr/affiliate&quot;},&quot;pt&quot;:{&quot;home&quot;:&quot;https://turbologo.com/pt&quot;,&quot;logo-maker&quot;:&quot;https://turbologo.com/pt/criar-logo&quot;,&quot;app&quot;:&quot;https://turbologo.com/pt/app&quot;,&quot;contacts&quot;:&quot;https://turbologo.com/pt/contacts&quot;,&quot;pricing&quot;:&quot;https://turbologo.com/pt/pricing&quot;,&quot;faq&quot;:&quot;https://turbologo.com/pt/faq&quot;,&quot;services&quot;:&quot;https://turbologo.com/pt/services&quot;,&quot;how-it-works&quot;:&quot;https://turbologo.com/pt/how-it-works&quot;,&quot;reviews&quot;:&quot;https://turbologo.com/pt/reviews&quot;,&quot;terms&quot;:&quot;https://turbologo.com/pt/terms&quot;,&quot;privacy&quot;:&quot;https://turbologo.com/pt/privacy&quot;,&quot;gallery&quot;:&quot;https://turbologo.com/pt/ideias-para-logotipos&quot;,&quot;blog&quot;:&quot;https://turbologo.com/pt/blog/&quot;,&quot;affiliate&quot;:&quot;https://turbologo.com/pt/affiliate&quot;},&quot;tr&quot;:{&quot;home&quot;:&quot;https://turbologo.com/tr&quot;,&quot;logo-maker&quot;:&quot;https://turbologo.com/tr/logo-tasarim&quot;,&quot;app&quot;:&quot;https://turbologo.com/tr/app&quot;,&quot;contacts&quot;:&quot;https://turbologo.com/tr/contacts&quot;,&quot;pricing&quot;:&quot;https://turbologo.com/tr/pricing&quot;,&quot;faq&quot;:&quot;https://turbologo.com/tr/faq&quot;,&quot;services&quot;:&quot;https://turbologo.com/tr/services&quot;,&quot;how-it-works&quot;:&quot;https://turbologo.com/tr/how-it-works&quot;,&quot;reviews&quot;:&quot;https://turbologo.com/tr/reviews&quot;,&quot;terms&quot;:&quot;https://turbologo.com/tr/terms&quot;,&quot;privacy&quot;:&quot;https://turbologo.com/tr/privacy&quot;,&quot;gallery&quot;:&quot;https://turbologo.com/tr/logo-fikirleri&quot;,&quot;blog&quot;:&quot;https://turbologo.com/tr/blog/&quot;,&quot;affiliate&quot;:&quot;https://turbologo.com/tr/affiliate&quot;},&quot;de&quot;:{&quot;home&quot;:&quot;https://turbologo.com/de&quot;,&quot;logo-maker&quot;:&quot;https://turbologo.com/de/logo-erstellen&quot;,&quot;app&quot;:&quot;https://turbologo.com/de/app&quot;,&quot;contacts&quot;:&quot;https://turbologo.com/de/contacts&quot;,&quot;pricing&quot;:&quot;https://turbologo.com/de/pricing&quot;,&quot;faq&quot;:&quot;https://turbologo.com/de/faq&quot;,&quot;services&quot;:&quot;https://turbologo.com/de/services&quot;,&quot;how-it-works&quot;:&quot;https://turbologo.com/de/how-it-works&quot;,&quot;reviews&quot;:&quot;https://turbologo.com/de/reviews&quot;,&quot;terms&quot;:&quot;https://turbologo.com/de/terms&quot;,&quot;privacy&quot;:&quot;https://turbologo.com/de/privacy&quot;,&quot;blog&quot;:&quot;https://turbologo.com/de/blog/&quot;,&quot;gallery&quot;:&quot;https://turbologo.com/de/logo-ideen&quot;,&quot;affiliate&quot;:&quot;https://turbologo.com/de/affiliate&quot;}},&quot;jivosite_enabled&quot;:null,&quot;cloudpayments_public_key&quot;:&quot;pk_d7f5373123b4ebc8626d03dbf1694&quot;,&quot;ab_tests&quot;:{&quot;subscription_form&quot;:&quot;one_time_fee_first&quot;},&quot;subscription&quot;:null,&quot;reviews&quot;:[{&quot;id&quot;:227,&quot;author&quot;:&quot;knud schultz&quot;,&quot;text&quot;:&quot;simples e fácil de seguir e boas idéias para sua criação inicial. eu recomendo para quem precisar de uma ferramenta para criar um logotipo ou outros serviços relacionados. parabéns.&quot;,&quot;avatar&quot;:&quot;https://uploads.turbologo.com/uploads/review/avatar/227/square_64x64__1_.png&quot;},{&quot;id&quot;:219,&quot;author&quot;:&quot;brl solene&quot;,&quot;text&quot;:&quot;muito bom, fácil de usar. eu recebi ajuda através do chat! eu recomendo&quot;,&quot;avatar&quot;:&quot;https://uploads.turbologo.com/uploads/review/avatar/219/square_22539749_10214853983802284_6756401326014751394_n.jpg&quot;},{&quot;id&quot;:211,&quot;author&quot;:&quot;michele branco&quot;,&quot;text&quot;:&quot;muito útil, aconselhe antes da compra. a equipe de design foi boa e acrescentou detalhes encantadores. eles continuaram se ajustando até ficar perfeito. eu escolheria o logotipo turbo novamente.&quot;,&quot;avatar&quot;:&quot;https://uploads.turbologo.com/uploads/review/avatar/211/square_48387798_10215037583067432_8511807259985051648_n.jpg&quot;},{&quot;id&quot;:207,&quot;author&quot;:&quot;israel naor&quot;,&quot;text&quot;:&quot;bom trabalho ótimo trabalho e experiência&quot;,&quot;avatar&quot;:&quot;https://uploads.turbologo.com/uploads/review/avatar/207/square_73x73.png&quot;},{&quot;id&quot;:203,&quot;author&quot;:&quot;nayla branco&quot;,&quot;text&quot;:&quot;gostei muito do serviço, da eficiência e economia de tempo. todas as mensagens foram prontamente respondidas. ótimo ... recomendo totalmente!&quot;,&quot;avatar&quot;:&quot;https://uploads.turbologo.com/uploads/review/avatar/203/square_73x73__1_.png&quot;},{&quot;id&quot;:195,&quot;author&quot;:&quot;jerome romanillos&quot;,&quot;text&quot;:&quot;muito fácil de usar. foi capaz de criar o logotipo que eu quero sem problemas.&quot;,&quot;avatar&quot;:&quot;https://uploads.turbologo.com/uploads/review/avatar/195/square_49446156_10156277589347852_744847887195701248_n.jpg&quot;},{&quot;id&quot;:191,&quot;author&quot;:&quot;maher hamdan&quot;,&quot;text&quot;:&quot;muito útil e me deu muitas idéias. criou várias opções antes de decidir&quot;,&quot;avatar&quot;:&quot;https://uploads.turbologo.com/uploads/review/avatar/191/square_10734029_10153321884019034_2307883007684602713_n.jpg&quot;}]}">
+
+    <script src="./modelo1_files/bundle.ad8a7eb16445c6137be3.js.gz"></script><script src="./modelo1_files/dj3lw2" async="1" id="pap_x2s6df8d"></script><script type="text/javascript" src="./modelo1_files/dr3lw2"></script>
+  
+
+<script type="text/javascript" id="">(function(a,e,f,g,b,c,d){a[b]=a[b]||function(){(a[b].a=a[b].a||[]).push(arguments)};a[b].l=1*new Date;c=e.createElement(f);d=e.getElementsByTagName(f)[0];c.async=1;c.src=g;d.parentNode.insertBefore(c,d)})(window,document,"script","https://cdn.jsdelivr.net/npm/yandex-metrica-watch/tag.js","ym");ym(44776492,"init",{clickmap:!1,trackLinks:!1,accurateTrackBounce:!0,ecommerce:"dataLayer"});</script>
+<div style="width:0px; height:0px; display:none; visibility:hidden;" id="batBeacon966036636934"><img style="width:0px; height:0px; display:none; visibility:hidden;" id="batBeacon994137597275" width="0" height="0" alt="" src="./modelo1_files/0"></div><iframe src="./modelo1_files/pixel.html" style="display: none;"></iframe><div id="fb-root" class=" fb_reset"><div style="position: absolute; top: -10000px; width: 0px; height: 0px;"><div></div></div></div><iframe id="ssIFrame_google" sandbox="allow-scripts allow-same-origin" aria-hidden="true" frame-border="0" src="./modelo1_files/iframe.html" style="position: absolute; width: 1px; height: 1px; inset: -9999px; display: none;"></iframe></body></html>
